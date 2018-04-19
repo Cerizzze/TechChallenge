@@ -3,7 +3,7 @@
 *I will assume this thumbnail ![alt text](https://raw.githubusercontent.com/Cerizzze/TechChallenge/master/obtained%20reward.PNG "obtained reward") means that a reward has been obtained but not claimed yet and this button ![alt text](https://raw.githubusercontent.com/Cerizzze/TechChallenge/master/claiming%20button.PNG "claiming button") means that an already obtained and claimed reward can be claimed once again.*
 
 --------------------
-**Feature**: Front End Rewards history in Freebies Vault Section
+**Feature**: Front-End Rewards history in Freebies Vault Section
 
 **As** a user  
 **I want** to access my rewards history in the Freebies Vault section  
@@ -46,7 +46,7 @@
 
 --------------------
 
-**Feature**: Back End Rewards history in Freebies Vault Section  				
+**Feature**: Back-End Rewards history in Freebies Vault Section  				
 
 **As** a back-end developer  
 **I want** to use the method `/igc/betspin/rewards/history` with only 1 param `userName`  
