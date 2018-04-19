@@ -7,7 +7,7 @@
 
 **As** a user  
 **I want** to access my rewards history in the Freebies Vault section  
-**In order** to see my obtained and claimed rewards  
+**In order to** see my obtained and claimed rewards  
 
 **Scenario**: Display "your history" section when a reward is claimed  
 **Given** user is logged in  
@@ -24,13 +24,13 @@
 **Then** user can see 1 characteristic thumbnail displayed for each token  
 **And** a specific thumbnail for unclaimed tokens  
 
-**Scenario**: Only the last 8 obtained and claimed tokens are displayed in the Freebies Vault/"your history" section  
+**Scenario**: Display only the last 8 obtained and claimed tokens in the Freebies Vault/"your history" section  
 **Given** user is logged in  
 **And** has obtained and claimed at least 9 tokens  
 **When** user goes to Freebis Vault/your history section  
 **Then** user can only see the 8 last obtained and claimed tokens displayed  
 
-**Scenario**: claiming button displayed when a token can be claimed once again  
+**Scenario**: Display claiming button when a token can be claimed once again  
 **Given** user is logged in  
 **And** has already obtained and claimed one specific token (token A)  
 **And**obtained once again token A whithout claiming it  
@@ -42,7 +42,7 @@
 **And** has claimed and obtained several tokens  
 **And** goes to Freebis Vault / “your history” section  
 **When** user hovers the mouse over a token  
-**Then** the name of the game where the token was obtained from is diplayed above the thumbnail 
+**Then** the name of the game where the token was obtained from is displayed above the thumbnail 
 
 --------------------
 
